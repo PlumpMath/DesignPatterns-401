@@ -1,1 +1,6 @@
 E:\Kent Files\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+E:\Kent Files\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+E:\Kent Files\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
+E:\Kent Files\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+E:\Kent Files\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
+E:\Kent Files\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
