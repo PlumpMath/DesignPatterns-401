@@ -11,5 +11,31 @@ namespace DesignPatterns.Structural
     {
         public string Company { get; set; }
         public string CompanyLocation { get; set; }
+        public string CompanyWebsite { get; set; }
+
+        //bulky data
+        public byte[] CompanyLogo { get; set; }
+    }
+
+    public static class FlyWeightPointer
+    {
+        public static FlyWeight Company = new FlyWeight
+        {
+            Company = "Abc",
+            CompanyLocation = "XYZ",
+            CompanyWebsite = "www.abc.com"
+        };
+    }
+
+    public class MyObject
+    {
+        public string Name { get; set; }
+        public FlyWeight Company
+        {
+            get
+            {
+                return FlyWeightPointer.Company;
+            }
+        }
     }
 }
