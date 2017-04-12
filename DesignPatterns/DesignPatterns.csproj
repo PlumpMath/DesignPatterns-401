@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Iterator.cs" />
+    <Compile Include="Behavioral\Mediator.cs" />
+    <Compile Include="Behavioral\Observer.cs" />
     <Compile Include="Creational\AbstractFactory.cs" />
     <Compile Include="Creational\Builder.cs" />
     <Compile Include="Creational\Factory.cs" />
@@ -54,14 +57,13 @@
     <Compile Include="Structural\Composite.cs" />
     <Compile Include="Structural\Decorator.cs" />
     <Compile Include="Structural\Flyweight.cs" />
+    <Compile Include="Structural\Memento.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behavioral\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
