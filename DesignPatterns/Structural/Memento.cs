@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Memento pattern allows you to capture the internal state of the object without violating 
+ * encapsulation and later on you can undo/revert the changes when required.
+ * 
+ * Here you can see the Memento Object is actually used to Revert the changes made in the object.
+ */
+
 namespace DesignPatterns.Structural
 {
     public class OriginalObject

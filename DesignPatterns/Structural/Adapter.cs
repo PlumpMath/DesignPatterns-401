@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Adapter pattern converts one instance of a class into another interface which client expects. 
+ * In other words, Adapter pattern actually makes two classes compatible.
+ *
+ * Here in the structure, the adapter is used to make MyClass2 incompatible with IAdapter.
+ */
+
 namespace DesignPatterns.Structural
 {
     public interface IAdapter
