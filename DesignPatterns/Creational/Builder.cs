@@ -4,6 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * This pattern creates object based on the Interface, but also lets the subclass decide which 
+ * class to instantiate. It also has finer control over the construction process.
+ *
+ * There is a concept of Director in Builder Pattern implementation. The director actually creates the object and also runs a few tasks after that.
+ *
+ * In case of Builder pattern you can see the Director is actually using CreateBuilder to create the instance of the builder. So when the Bulder is actually created, we can also invoke a few common task in it.
+ */
+
 namespace DesignPatterns.Creational
 {
     public interface IBuilder

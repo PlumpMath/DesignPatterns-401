@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Abstract factory is the extension of basic Factory pattern. It provides Factory interfaces 
+ * for creating a family of related classes. In other words, here I am declaring interfaces 
+ * for Factories, which will in turn work in similar fashion as with Factories.
+ *
+ * The factory method is also implemented using common interface each of which returns objects.
+ */
+
 namespace DesignPatterns.Creational
 {
     public interface IFactory1

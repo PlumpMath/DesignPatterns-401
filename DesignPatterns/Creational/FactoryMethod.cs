@@ -4,6 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * A Factory method is just an addition to Factory class. It creates the object of the class 
+ * through interfaces but on the other hand, it also lets the subclass to decide which class 
+ * to be instantiated.
+ *
+ * You can see I have used GetObject in concreteFactory. As a result, you can easily call DoSomething() from it to get the IProduct.
+ *
+ * You might also write your custom logic after getting the object in the concrete Factory Method. The GetObject is made abstract in the Factory interface.
+ */
+
 namespace DesignPatterns.Creational
 {
     public interface IProduct
