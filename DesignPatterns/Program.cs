@@ -19,7 +19,7 @@ namespace DesignPatterns
 
             //factory method pattern
             var productConcreteFactory = new ProductConcreteFactory();
-            Console.WriteLine(productConcreteFactory.GetObject());
+            Console.WriteLine(productConcreteFactory.DoSomething());
 
             Console.Read();
         }

@@ -12,7 +12,29 @@ namespace DesignPatterns.Structural
         void Add();
     }
 
-    class Adapter
+    public class MyClass1 : IAdapter
     {
+        public void Add()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class MyClass2
+    {
+        public void Push()
+        { 
+            
+        }
+    }
+
+    public class Adapter: IAdapter
+    {
+        private MyClass2 _class2 = new MyClass2();
+
+        public void Add()
+        {
+            this._class2.Push();
+        }
     }
 }
